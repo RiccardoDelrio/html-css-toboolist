@@ -19,6 +19,7 @@
 /* start header */
 .header_site {
     height: 5rem;
+    background-color: white;
 
 }
 
@@ -38,5 +39,27 @@
 }
 
 
-
 /* Start Body */
+body {
+    background-color: var(--ct--litegrey);
+    width: 60vw;
+    margin: auto;
+}
+
+.container_button {
+    background-color: white;
+    margin: 10px 0 10px 0;
+    padding: 10px;
+}
+
+.button_propriety {
+    margin-left: 2rem;
+
+}
+
+.bt_add {
+    padding: 10px;
+    border-radius: 8px;
+    margin: 2px;
+
+}
