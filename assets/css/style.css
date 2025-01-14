@@ -1,3 +1,15 @@
+:root {
+    --ct--editorial: #45abe9;
+    --ct--q1goals: #9c72e4;
+    --ct--recluting: #64c0a9;
+    --ct--mobile: #f29e33;
+    --ct--website: #d863a0;
+    --ct--sales: #b0c926;
+
+
+
+}
+
 * {
     margin: 0;
     padding: 0;
