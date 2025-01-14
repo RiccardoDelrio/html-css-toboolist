@@ -18,9 +18,11 @@
 
 /* start header */
 .header_site {
+    display: flex;
     height: 5rem;
     background-color: white;
     margin-bottom: 3rem;
+    align-items: center;
 
 }
 
@@ -31,7 +33,8 @@
 #logo {
     width: 4rem;
     height: 4rem;
-    padding: 1rem;
+    margin: 10px;
+
 }
 
 #company_name {
