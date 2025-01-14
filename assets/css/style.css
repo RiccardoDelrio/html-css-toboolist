@@ -53,13 +53,25 @@ body {
 }
 
 .button_propriety {
-    margin-left: 2rem;
+    margin-left: 5rem;
 
 }
 
 .bt_add {
-    padding: 10px;
+    padding: 10px 20px 10px 20px;
     border-radius: 8px;
     margin: 2px;
 
+}
+
+#bt_colored {
+    background-color: var(--ct--editorial);
+    color: white;
+    border: 0px;
+}
+
+#bt_uncolored {
+    background-color: white;
+    color: grey;
+    border: 1px solid grey;
 }
