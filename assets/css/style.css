@@ -6,8 +6,7 @@
     --ct--website: #d863a0;
     --ct--sales: #b0c926;
     --ct--litegrey: #e8e9ea;
-
-
+    --ct--checkgreen: #6ec5b0;
 }
 
 * {
@@ -20,6 +19,7 @@
 .header_site {
     height: 5rem;
     background-color: white;
+    margin-bottom: 3rem;
 
 }
 
@@ -42,11 +42,15 @@
 /* Start Body */
 body {
     background-color: var(--ct--litegrey);
+}
+
+main {
     width: 60vw;
     margin: auto;
 }
 
-.container_button {
+.container_button,
+.main_container {
     background-color: white;
     margin: 10px 0 10px 0;
     padding: 10px;
@@ -74,4 +78,25 @@ body {
     background-color: white;
     color: grey;
     border: 1px solid grey;
+}
+
+/*End of the space dedicated to the buttons, beginning of the central part*/
+.name_title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.obj_container {
+    font-size: 2rem;
+}
+
+.status_positive {
+    width: 35px;
+    height: 35px;
+    color: var(--ct--checkgreen);
+    border: 2px solid var(--ct--checkgreen);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+
 }
