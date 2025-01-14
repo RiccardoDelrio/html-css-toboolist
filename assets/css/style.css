@@ -56,8 +56,9 @@ main {
     padding: 10px;
 }
 
-.button_propriety {
+.layout_propriety {
     margin-left: 5rem;
+
 
 }
 
@@ -86,6 +87,11 @@ main {
     font-weight: bold;
 }
 
+.task_propriety {
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+}
+
 .obj_container {
     font-size: 2rem;
 }
@@ -102,15 +108,38 @@ main {
 
 }
 
+.status_neative {
+    width: 35px;
+    height: 35px;
+    color: red;
+    border: 2px solid red;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    font-size: 1.5rem;
+}
+
 .obj_type {
 
     border-radius: 10px;
     padding: 2px 20px;
     font-size: 1rem;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     color: white
 }
 
-#editorial {
+.editorial {
     background-color: var(--ct--editorial);
+}
+
+.q1goals {
+    background-color: var(--ct--q1goals);
+}
+
+.recluting {
+    background-color: var(--ct--recluting);
+}
+
+.mobile {
+    background-color: var(--ct--mobile);
 }
