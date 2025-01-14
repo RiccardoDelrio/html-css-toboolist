@@ -5,7 +5,7 @@
     --ct--mobile: #f29e33;
     --ct--website: #d863a0;
     --ct--sales: #b0c926;
-
+    --ct--litegrey: #e8e9ea;
 
 
 }
@@ -15,3 +15,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* start header */
+.header_site {
+    height: 5rem;
+
+}
+
+.in-block {
+    display: inline-block;
+}
+
+#logo {
+    width: 4rem;
+    height: 4rem;
+    padding: 1rem;
+}
+
+#company_name {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+
+
+/* Start Body */
