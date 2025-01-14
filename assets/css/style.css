@@ -9,6 +9,7 @@
     --ct--checkgreen: #6ec5b0;
 }
 
+
 * {
     margin: 0;
     padding: 0;
@@ -36,6 +37,8 @@
 #company_name {
     font-size: 4rem;
     font-weight: bold;
+    margin-left: 1rem;
+    font-family: "Roboto", serif;
 }
 
 
@@ -49,11 +52,20 @@ main {
     margin: auto;
 }
 
-.container_button,
+.container_button {
+    background-color: white;
+    margin-bottom: 3px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
 .main_container {
     background-color: white;
-    margin: 10px 0 10px 0;
+    margin-bottom: 3px;
     padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
 }
 
 .layout_propriety {
@@ -85,6 +97,7 @@ main {
 .name_title {
     font-size: 2rem;
     font-weight: bold;
+    margin-bottom: 10px;
 }
 
 .task_propriety {
@@ -108,7 +121,7 @@ main {
 
 }
 
-.status_neative {
+.status_negative {
     width: 35px;
     height: 35px;
     color: red;
@@ -124,8 +137,11 @@ main {
     border-radius: 10px;
     padding: 2px 20px;
     font-size: 1rem;
-    margin-bottom: 30px;
     color: white
+}
+
+.obj_name {
+    margin-bottom: 30px;
 }
 
 .editorial {
@@ -142,4 +158,12 @@ main {
 
 .mobile {
     background-color: var(--ct--mobile);
+}
+
+.website {
+    background-color: var(--ct--website);
+}
+
+.sales {
+    background-color: var(--ct--sales);
 }
